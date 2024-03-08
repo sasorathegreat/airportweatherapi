@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "d5349e8a-7d6b-4146-a893-6b6abd23340f",
+		"name": "Airport-Weather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11885662"
+	},
+	"item": [
+		{
+			"name": "Weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/weather/airports?values=kaus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"weather",
+						"airports"
+					],
+					"query": [
+						{
+							"key": "values",
+							"value": "kaus"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
